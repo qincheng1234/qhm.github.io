@@ -86,6 +86,9 @@ h1 em { color: var(--blue); font-family: Georgia, "Songti SC", serif; font-weigh
 .result-list strong { font-size: clamp(28px, 4vw, 48px); line-height: 1; }
 .result-list span { margin-top: 9px; color: #b9cbcd; font-size: 12px; }
 .paper-note { margin-bottom: 0; font-size: 14px; }
+.paper-actions { margin-top: 22px; }
+.paper-actions a { display: inline-flex; gap: 18px; padding-bottom: 4px; color: var(--blue); text-decoration: none; font-size: 13px; font-weight: 800; border-bottom: 1px solid currentColor; }
+.paper-featured .paper-actions a { color: #8bb8ff; }
 .paper-list { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; margin-top: 34px; }
 
 .project-section { position: relative; display: grid; grid-template-columns: 220px 1fr; gap: 50px; background: var(--blue); color: var(--white); padding-inline: 48px; border: 0; }
