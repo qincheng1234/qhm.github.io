@@ -1,26 +1,15 @@
-# 秦宏民个人主页
+# 秦宏民个人学术主页
 
-无需构建工具的静态个人学术主页，可直接部署到 GitHub Pages。
+本项目基于 [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll 主题构建，并通过 GitHub Pages 自动部署。
 
-## 本地预览
+## 内容维护
 
-```powershell
-python -m http.server 8000
-```
+- 个人信息与站点设置：`_config.yml`
+- 页面正文：`index.md`
+- 论文列表：`_data/publications.yml`
+- 论文 PDF：`papers/`
+- 论文模型图：`assets/publications/`
 
-浏览器访问 `http://localhost:8000`。
+推送到 `main` 分支后，`.github/workflows/pages.yml` 会使用 Jekyll 构建并部署站点。
 
-## 部署到 GitHub Pages
-
-1. 使用 GitHub 仓库 `qincheng1234/qhm.github.io`。
-2. 将本目录内容推送到仓库的 `main` 分支。
-3. 打开仓库 `Settings → Pages`，在 **Build and deployment** 下把 Source 设为 **GitHub Actions**。
-4. 等待 `Deploy static site to GitHub Pages` 工作流完成。
-
-发布地址为 `https://qincheng1234.github.io/qhm.github.io/`。
-
-## 发布前建议补充
-
-- GitHub 主页或代码仓库链接
-- 可公开下载的脱敏简历（当前原始简历含手机号，因此页面未提供下载）
-- 如有需要，补充英文版页面与个人域名
+线上地址：<https://qincheng1234.github.io/qhm.github.io/>

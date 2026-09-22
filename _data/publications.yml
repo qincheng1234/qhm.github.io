@@ -1,0 +1,23 @@
+main:
+  - title: "FreDEA: Frequency-Aware Dual External Attention for Time Series Forecasting"
+    authors: <strong>Hongmin Qin</strong>, Yilong Li, Taohui Huang, Liming Jiang, Huanyu Wang
+    conference_short: PRICAI
+    conference: The 23rd Pacific Rim International Conference on Artificial Intelligence <strong>(PRICAI)</strong>, 2026.
+    pdf: ./papers/FreDEA-PRICAI-2026.pdf
+    image: ./assets/publications/fredea.jpg
+    notes: Accepted
+
+  - title: "Traffic Accident Risk Prediction Based on Multi-Granularity Spatio-Temporal Feature Decoupling and Recoupling Learning"
+    authors: <strong>Hongmin Qin</strong>, Ning Yang, Wenxuan Yu, Liming Jiang, Huanyu Wang
+    conference_short: ICIC
+    conference: International Conference on Intelligent Computing <strong>(ICIC)</strong>, Springer LNCS 16650, 2026.
+    pdf: ./papers/MDR-Net-ICIC-2026.pdf
+    image: ./assets/publications/mdrnet.jpg
+
+  - title: "Multi-step Traffic Flow Prediction Based on Reinforced Attention Graph Convolutional Network"
+    authors: Zikang Dai, <strong>Hongmin Qin</strong>, Liming Jiang, Huanyu Wang
+    conference_short: ICIC
+    conference: International Conference on Intelligent Computing <strong>(ICIC)</strong>, Springer LNCS 15848, 2025.
+    pdf: ./papers/RAGCN-ICIC-2025.pdf
+    image: ./assets/publications/ragcn.jpg
+

@@ -1,0 +1,26 @@
+title: 秦宏民
+position: 物联网工程本科生
+affiliation: 湖南科技大学
+affiliation_link: https://www.hnust.edu.cn/
+email: qinhongmin73@foxmail.com
+
+keywords: Hongmin Qin, 秦宏民, time series forecasting, spatio-temporal learning
+description: 秦宏民的个人学术主页，研究方向包括多变量时间序列、时空预测与强化学习。
+canonical: https://qincheng1234.github.io/qhm.github.io/
+
+github_link: https://github.com/qincheng1234
+
+avatar: ./assets/profile.jpg
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+enable_footnote: true
+auto_dark_mode: true
+font: "Serif"
+lang: zh-CN
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
