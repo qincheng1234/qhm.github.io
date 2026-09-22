@@ -4,174 +4,136 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="秦宏民的个人学术主页，研究方向包括多变量时间序列、时空预测与强化学习。" />
-    <meta name="theme-color" content="#0d292a" />
+    <meta name="theme-color" content="#ffffff" />
     <meta property="og:title" content="秦宏民｜个人学术主页" />
     <meta property="og:description" content="多变量时间序列、时空预测与强化学习研究。" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://qincheng1234.github.io/qhm.github.io/" />
     <link rel="canonical" href="https://qincheng1234.github.io/qhm.github.io/" />
-    <title>秦宏民｜个人学术主页</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
+    <title>秦宏民｜个人学术主页</title>
   </head>
   <body>
-    <a class="skip-link" href="#main">跳到主要内容</a>
+    <a class="skip-link" href="#content">跳到主要内容</a>
+    <div class="page-shell">
+      <aside class="profile" aria-label="个人信息">
+        <img class="avatar" src="assets/profile.jpg" alt="秦宏民的照片" width="600" height="800" />
+        <h1>秦宏民</h1>
+        <p class="name-en">Hongmin Qin</p>
+        <p class="role">物联网工程本科生</p>
+        <p class="affiliation">湖南科技大学<br />计算机科学与工程学院</p>
+        <a class="email" href="mailto:qinhongmin73@foxmail.com">qinhongmin73@foxmail.com</a>
+        <nav class="profile-links" aria-label="个人链接">
+          <a href="https://github.com/qincheng1234" target="_blank" rel="me noopener">GitHub</a>
+          <a href="#publications">Publications</a>
+          <a href="mailto:qinhongmin73@foxmail.com">Email</a>
+        </nav>
+        <dl class="profile-stats">
+          <div><dt>专业排名</dt><dd>9 / 116</dd></div>
+          <div><dt>CCF-C 论文</dt><dd>3 篇</dd></div>
+        </dl>
+      </aside>
 
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="返回首页">
-        <span class="brand-mark">Q</span>
-        <span>秦宏民</span>
-      </a>
-      <nav class="site-nav" aria-label="主要导航">
-        <a href="#research">研究</a>
-        <a href="#project">项目</a>
-        <a href="#awards">荣誉</a>
-        <a href="#about">关于</a>
-      </nav>
-      <a class="contact-link" href="mailto:qinhongmin73@foxmail.com">联系我</a>
-    </header>
+      <main id="content">
+        <section aria-labelledby="about-title">
+          <h2 id="about-title">关于我</h2>
+          <p>我是湖南科技大学物联网工程专业本科生，研究聚焦<strong>多变量时间序列预测</strong>与<strong>时空数据建模</strong>。目前已发表或录用 3 篇 CCF-C 类会议论文，其中 2 篇为第一作者。</p>
+          <p>两篇第一作者论文的模型设计、代码实现、实验验证与英文写作均由本人独立完成。研究生阶段希望系统学习强化学习理论与算法，进一步探索进化优化与强化学习的结合。</p>
+        </section>
 
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="status"><span aria-hidden="true"></span> 物联网工程本科生 · 研究者</p>
-          <h1 id="hero-title">用高效模型理解<br /><em>时间与空间</em></h1>
-          <p class="hero-intro">
-            我是秦宏民，湖南科技大学物联网工程专业本科生。研究聚焦多变量时间序列与时空预测，关注高效建模、特征表示，以及强化学习与进化优化的结合。
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#research">查看研究成果 <span aria-hidden="true">→</span></a>
-            <a class="button text" href="mailto:qinhongmin73@foxmail.com">qinhongmin73@foxmail.com</a>
-          </div>
-        </div>
-
-        <div class="hero-profile" aria-label="个人概况">
-          <figure class="portrait-wrap">
-            <img src="assets/profile.jpg" alt="秦宏民的证件照" width="600" height="800" />
-            <figcaption>Hunan University of Science and Technology</figcaption>
-          </figure>
-          <dl class="quick-facts">
-            <div><dt>专业排名</dt><dd>9 / 116</dd></div>
-            <div><dt>CCF-C 论文</dt><dd>3 篇</dd></div>
-            <div><dt>第一作者</dt><dd>2 篇</dd></div>
-          </dl>
-        </div>
-      </section>
-
-      <section class="signal-strip" aria-label="研究关键词">
-        <span>Time Series</span><span>Spatio-temporal Learning</span><span>Efficient AI</span><span>Reinforcement Learning</span>
-      </section>
-
-      <section class="section research-section" id="research" aria-labelledby="research-title">
-        <header class="section-heading">
-          <p>Selected research</p>
-          <h2 id="research-title">研究成果</h2>
-          <p>已发表或录用 3 篇 CCF-C 类会议论文；两篇第一作者论文的模型设计、代码实现、实验验证与英文写作均独立完成。</p>
-        </header>
-
-        <article class="paper paper-featured reveal">
-          <div class="paper-meta">
-            <span class="venue">PRICAI 2026 · 已录用</span>
-            <span>第一作者</span>
-          </div>
-          <h3>FreDEA: Frequency-Aware Dual External Attention for Time Series Forecasting</h3>
-          <p>以频率感知双外部注意力框架解耦趋势、周期与噪声，并高效建模长程时间依赖和变量相关性。</p>
-          <ul class="result-list">
-            <li><strong>18 / 35</strong><span>MSE 最优</span></li>
-            <li><strong>21 / 35</strong><span>MAE 最优</span></li>
-            <li><strong>0.231M</strong><span>模型参数量</span></li>
+        <section aria-labelledby="interest-title">
+          <h2 id="interest-title">研究兴趣</h2>
+          <ul class="interest-list">
+            <li><strong>时间序列预测：</strong>频域分解、频率选择、长序列预测与高效注意力。</li>
+            <li><strong>时空数据挖掘：</strong>图神经网络、跨尺度特征融合与稀疏风险预测。</li>
+            <li><strong>强化学习：</strong>策略学习、探索效率、训练稳定性与进化优化。</li>
           </ul>
-          <p class="paper-note">Weather 数据集平均 MSE 0.238，较最强基线降低 4.4%；单批推理耗时 4.138 ms。</p>
-          <div class="paper-actions">
-            <a href="papers/FreDEA-PRICAI-2026.pdf" target="_blank" rel="noopener">阅读论文 PDF <span aria-hidden="true">↗</span></a>
-          </div>
-        </article>
+        </section>
 
-        <div class="paper-list">
-          <article class="paper reveal">
-            <div class="paper-meta"><span class="venue">ICIC 2026 · Springer LNCS 16650</span><span>第一作者</span></div>
-            <h3>Traffic Accident Risk Prediction Based on Multi-Granularity Spatio-Temporal Feature Decoupling and Recoupling Learning</h3>
-            <p>提出 MDR-Net，应对事故数据的极端时空稀疏性与零膨胀问题。模型在 NYC 和 Chicago 数据集六项指标上均优于 8 种基线。</p>
-            <p class="paper-note">Chicago 数据集 MAP 达到 0.1008，较次优模型提升 6.7%。</p>
-            <div class="paper-actions">
-              <a href="papers/MDR-Net-ICIC-2026.pdf" target="_blank" rel="noopener">阅读论文 PDF <span aria-hidden="true">↗</span></a>
+        <section aria-labelledby="news-title">
+          <h2 id="news-title">最新动态</h2>
+          <ul class="news-list">
+            <li><time>2026</time><span>第一作者论文 <em>FreDEA</em> 被 PRICAI 2026 录用。</span></li>
+            <li><time>2026</time><span>第一作者论文 <em>MDR-Net</em> 发表于 ICIC 2026，收录于 Springer LNCS 16650。</span></li>
+            <li><time>2025</time><span>交通流预测论文发表于 ICIC 2025，收录于 Springer LNCS 15848。</span></li>
+          </ul>
+        </section>
+
+        <section id="publications" aria-labelledby="publication-title">
+          <h2 id="publication-title">论文发表</h2>
+          <article class="publication">
+            <a class="paper-image fredea" href="papers/FreDEA-PRICAI-2026.pdf" target="_blank" rel="noopener" aria-label="阅读 FreDEA 论文 PDF">
+              <img src="assets/publications/fredea.jpg" alt="FreDEA 模型框架图" width="885" height="847" />
+            </a>
+            <div>
+              <h3>FreDEA: Frequency-Aware Dual External Attention for Time Series Forecasting</h3>
+              <p class="authors"><strong>Hongmin Qin</strong>, Yilong Li, Taohui Huang, Liming Jiang, and Huanyu Wang</p>
+              <p class="venue"><strong>PRICAI 2026</strong> · 第一作者 · 已录用</p>
+              <p>频率感知双外部注意力框架，通过软频谱掩码与输入自适应频率选择，高效建模时间与变量依赖。</p>
+              <p class="paper-links"><a href="papers/FreDEA-PRICAI-2026.pdf" target="_blank" rel="noopener">PDF</a></p>
             </div>
           </article>
-          <article class="paper reveal">
-            <div class="paper-meta"><span class="venue">ICIC 2025 · Springer LNCS 15848</span><span>第二作者</span></div>
-            <h3>Multi-step Traffic Flow Prediction Based on Reinforced Attention Graph Convolutional Network</h3>
-            <p>结合图卷积、循环神经网络与时序注意力，面向多步交通流预测建模动态时空依赖。</p>
-            <div class="paper-actions">
-              <a href="papers/RAGCN-ICIC-2025.pdf" target="_blank" rel="noopener">阅读论文 PDF <span aria-hidden="true">↗</span></a>
+
+          <article class="publication">
+            <a class="paper-image" href="papers/MDR-Net-ICIC-2026.pdf" target="_blank" rel="noopener" aria-label="阅读 MDR-Net 论文 PDF">
+              <img src="assets/publications/mdrnet.jpg" alt="MDR-Net 模型框架图" width="1100" height="530" />
+            </a>
+            <div>
+              <h3>Traffic Accident Risk Prediction Based on Multi-Granularity Spatio-Temporal Feature Decoupling and Recoupling Learning</h3>
+              <p class="authors"><strong>Hongmin Qin</strong>, Ning Yang, Wenxuan Yu, Liming Jiang, and Huanyu Wang</p>
+              <p class="venue"><strong>ICIC 2026</strong> · Springer LNCS 16650 · 第一作者</p>
+              <p>提出多粒度时空解耦—重耦合网络 MDR-Net，增强极端稀疏和零膨胀事故数据的风险表征。</p>
+              <p class="paper-links"><a href="papers/MDR-Net-ICIC-2026.pdf" target="_blank" rel="noopener">PDF</a></p>
             </div>
           </article>
-        </div>
-      </section>
 
-      <section class="section project-section" id="project" aria-labelledby="project-title">
-        <div class="project-index" aria-hidden="true">01</div>
-        <div class="project-content">
-          <header class="section-heading compact">
-            <p>Featured project · 2025.04–2025.07</p>
-            <h2 id="project-title">“空—地—云”协同的<br />智慧停车系统</h2>
-          </header>
-          <p class="project-lead">融合无人机动态感知、边缘计算、云端时序预测与大语言模型交互，实现停车状态监测与资源管理。</p>
-          <div class="project-work">
-            <article>
-              <span>系统开发</span>
-              <h3>从数据分析到 3D 实景导航</h3>
-              <p>负责管理端与用户端功能开发，完成停车信息展示、综合数据分析、AI 助手对话和 3D 实景导航模块。</p>
-            </article>
-            <article>
-              <span>模型部署</span>
-              <h3>多停车场可用车位预测</h3>
-              <p>将停车场网络建模为多变量时间序列，完成 STID 模型实现、训练、基准测试与云端部署。</p>
-            </article>
+          <article class="publication">
+            <a class="paper-image" href="papers/RAGCN-ICIC-2025.pdf" target="_blank" rel="noopener" aria-label="阅读交通流预测论文 PDF">
+              <img src="assets/publications/ragcn.jpg" alt="交通流预测模型框架图" width="1100" height="649" />
+            </a>
+            <div>
+              <h3>Multi-step Traffic Flow Prediction Based on Reinforced Attention Graph Convolutional Network</h3>
+              <p class="authors">Zikang Dai, <strong>Hongmin Qin</strong>, Liming Jiang, and Huanyu Wang</p>
+              <p class="venue"><strong>ICIC 2025</strong> · Springer LNCS 15848 · 第二作者</p>
+              <p>结合图卷积、循环神经网络与时序注意力，建模交通网络中的动态时空依赖。</p>
+              <p class="paper-links"><a href="papers/RAGCN-ICIC-2025.pdf" target="_blank" rel="noopener">PDF</a></p>
+            </div>
+          </article>
+        </section>
+
+        <section aria-labelledby="education-title">
+          <h2 id="education-title">教育经历</h2>
+          <div class="education-row">
+            <div>
+              <h3>湖南科技大学</h3>
+              <p>物联网工程 · 本科</p>
+              <p class="muted">GPA 3.37 / 4.0 · 专业排名 9 / 116（前 7.8%）</p>
+            </div>
+            <time>2023.09–2027.06</time>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section awards-section" id="awards" aria-labelledby="awards-title">
-        <header class="section-heading">
-          <p>Competitions</p>
-          <h2 id="awards-title">竞赛与荣誉</h2>
-        </header>
-        <ol class="awards-list">
-          <li class="reveal"><time>2025</time><span>全国大学生物联网设计竞赛华中及西南赛区</span><strong>一等奖</strong></li>
-          <li class="reveal"><time>2025</time><span>湖南省大学生程序设计竞赛</span><strong>二等奖</strong></li>
-          <li class="reveal"><time>2025</time><span>湖南省大学生物联网应用创新设计竞赛</span><strong>二等奖</strong></li>
-          <li class="reveal"><time>2025</time><span>中国大学生计算机设计大赛中南赛区</span><strong>三等奖</strong></li>
-          <li class="reveal"><time>2026</time><span>中国大学生计算机设计大赛中南赛区</span><strong>三等奖</strong></li>
-        </ol>
-      </section>
+        <section aria-labelledby="award-title">
+          <h2 id="award-title">竞赛与荣誉</h2>
+          <ul class="award-list">
+            <li><time>2025</time><span>全国大学生物联网设计竞赛华中及西南赛区一等奖</span></li>
+            <li><time>2025</time><span>湖南省大学生程序设计竞赛二等奖</span></li>
+            <li><time>2025</time><span>湖南省大学生物联网应用创新设计竞赛二等奖</span></li>
+            <li><time>2025</time><span>中国大学生计算机设计大赛中南赛区三等奖</span></li>
+            <li><time>2026</time><span>中国大学生计算机设计大赛中南赛区三等奖</span></li>
+          </ul>
+        </section>
 
-      <section class="section about-section" id="about" aria-labelledby="about-title">
-        <div class="about-copy">
-          <header class="section-heading compact">
-            <p>About & skills</p>
-            <h2 id="about-title">持续把问题做深，<br />也把实验做实。</h2>
-          </header>
-          <p>具备从文献调研、问题分析、模型设计，到代码实现、实验验证和英文论文写作的完整研究经验。研究生阶段希望系统学习强化学习理论与算法，进一步探索进化优化与强化学习的结合。</p>
-        </div>
-        <div class="skill-groups">
-          <article><h3>编程与框架</h3><p>Python · PyTorch · LaTeX</p></article>
-          <article><h3>模型与方法</h3><p>频域分解 · 长序列预测 · 图卷积 · 外部注意力 · 自蒸馏</p></article>
-          <article><h3>实验能力</h3><p>基线复现 · 消融实验 · 超参数分析 · 效率测试 · 结果复现</p></article>
-          <article><h3>英语能力</h3><p>CET-4 497 · CET-6 480 · 英文文献阅读与论文写作</p></article>
-        </div>
-      </section>
+        <section aria-labelledby="skill-title">
+          <h2 id="skill-title">专业技能</h2>
+          <p><strong>编程与工具：</strong>Python、PyTorch、LaTeX；能够独立完成数据处理、模型设计、训练调参、基线复现与实验分析。</p>
+          <p><strong>科研实验：</strong>多数数据集对比、消融实验、超参数分析、效率测试与结果复现。</p>
+          <p><strong>英语能力：</strong>CET-4 497，CET-6 480；具备英文文献阅读与论文写作能力。</p>
+        </section>
 
-      <section class="contact-section" aria-labelledby="contact-title">
-        <p>欢迎交流时间序列、时空预测与强化学习。</p>
-        <h2 id="contact-title">一起讨论一个<br />值得研究的问题。</h2>
-        <a href="mailto:qinhongmin73@foxmail.com">发送邮件 <span aria-hidden="true">↗</span></a>
-      </section>
-    </main>
-
-    <footer>
-      <span>© <span id="year">2026</span> 秦宏民</span>
-      <a href="https://github.com/qincheng1234/qhm.github.io">GitHub · qhm.github.io</a>
-    </footer>
+        <footer><p>© 2026 Hongmin Qin · Last updated September 2026</p></footer>
+      </main>
+    </div>
   </body>
 </html>
